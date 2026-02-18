@@ -1,61 +1,49 @@
 # Mega-Connection-Game
 Mega Connection 4 Word Selection Game
 
-Gemini said
-Certainly! Since we’ve upgraded to the Master Edition with the deck-shuffling logic and the "Midnight Cyberpunk" theme, here is a polished README.md that reflects the current state of your project.
+🌌 Mega Connections: Mega-Pool Edition
+Welcome to the Mega-Pool Edition, a robust logic-puzzle platform featuring 224 words and nearly 40,000 unique challenge combinations.
 
-🌌 Mega Connections: Midnight Master Edition
-A high-fidelity, logic-puzzle experience built with a "Midnight Cyberpunk" aesthetic. This version features a sophisticated Selection-Without-Replacement engine, ensuring a fresh and balanced challenge every time you play.
+🚀 Engine Specifications
+1. The Mega-Pool Database
+This version features a massive expansion to the core word bank:
 
-🚀 Key Features
-1. The "Card Deck" Logic Engine
-Unlike standard versions that pull words at random, the Master Edition uses a deck-shuffling algorithm.
+224 Unique Words: A professional-grade library.
 
-No Repetition: Categories are "dealt" from a shuffled pool and removed from play.
+56 Categories: 14 tiers per difficulty level (Yellow, Green, Blue, Purple).
 
-Variety Guarantee: You are guaranteed 6 entirely unique games (96 unique words) before a single category repeats.
+Selection without Replacement: Uses a "Deck Shuffling" algorithm. You are guaranteed 14 completely unique games (no repeated categories) per session.
 
-Balanced Difficulty: Every grid is mathematically generated to contain exactly one Yellow, Green, Blue, and Purple category.
+2. Red Herring Protocols
+We have integrated 8 "Red Herring" categories designed to intentionally deceive players. Look out for words like:
 
-2. Midnight Cyberpunk UI/UX
-Contrast-Optimized Tiles: Solved categories utilize "Midnight Overlay" text (dark text on light backgrounds) to eliminate eye strain.
+LEAD: Does it belong to Metals or Pencil Parts?
 
-Dynamic Feedback: Real-time "One away!" detection and system-failure alerts.
+SQUASH: Is it a Vegetable or a Racket Sport?
 
-Mobile-First Design: A responsive grid that adapts to any screen size, from desktop monitors to smartphones.
+HAM: A Meat or a Bad Actor?
 
-3. Integrated Audio Synthesis
-Powered by the Web Audio API, the game features synthesized retro-wave sound effects:
+3. Cyberpunk UI Architecture
+Dark-on-Color Text: Solved tiles use specific dark-accented text colors for zero eye strain.
 
-Haptic Tones: Distinct frequencies for selecting and deselecting words.
+Web Audio API: Synthesized sine and sawtooth waves provide haptic audio feedback.
 
-Achievement Arpeggios: Satisfying chord sequences for correct connections and game wins.
+Responsive Layout: Optimized for desktop and mobile Safari/Chrome.
 
-📋 Difficulty Tiers
-Level	Theme	Style
-🟡 Yellow	Straightforward	Synonyms, basic categories (Fruits, Metals).
-🟢 Green	Intermediate	Common knowledge and trivia (Chess, Planets).
-🔵 Blue	Specialized	Academic or niche groupings (Clouds, Airlines).
-🟣 Purple	Tricky	Wordplay, silent letters, and homophones.
-🛠️ Technical Setup
-Local Execution
-Save the code as index.html.
+🛠️ Installation & Setup
+Local Play: Save the code above as index.html and open it in any modern browser.
 
-Open the file in any modern web browser.
+GitHub Deployment:
 
-Click "Unlock Systems" to initialize the audio engine and start the puzzle.
+Upload index.html to a new repository.
 
-GitHub Deployment
-For the best experience, host this via GitHub Pages:
+Enable GitHub Pages in Settings > Pages.
 
-Upload index.html to your repository.
+Name the file exactly index.html to ensure it loads at the root URL.
 
-Go to Settings > Pages and enable deployment from the main branch.
+📝 Project Evolution
+V1: 40 words, static list.
 
-Your game will be live at https://yourusername.github.io/your-repo-name/.
+V2: 64 words, Midnight theme.
 
-📝 License
-This project is open-source and free to use for personal play and modification.
-
-Pro-Tip for your GitHub Repo:
-If you name this file exactly README.md (all caps), GitHub will automatically display it as the "homepage" of your repository, giving it a very professional look!
+Mega-Pool: 224 words, Red Herring traps, and Deck-Shuffling logic.
